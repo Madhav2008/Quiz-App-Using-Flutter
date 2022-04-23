@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Text('Quiz App'),
+      home: Center(child: const Text('Quiz App')),
     );
   }
 }

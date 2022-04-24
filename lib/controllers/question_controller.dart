@@ -83,7 +83,6 @@ class QuestionController extends GetxController
 
       _animationController.reset();
 
-      // Then start it again
       _animationController.forward().whenComplete(nextQuestion);
     } else {
       // Get package provide us simple way to naviigate another page

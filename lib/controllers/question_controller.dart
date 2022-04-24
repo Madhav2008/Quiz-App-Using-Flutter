@@ -9,7 +9,6 @@ class QuestionController extends GetxController
 
   AnimationController _animationController;
   Animation _animation;
-  // so that we can access our animation outside
   Animation get animation => this._animation;
 
   PageController _pageController;

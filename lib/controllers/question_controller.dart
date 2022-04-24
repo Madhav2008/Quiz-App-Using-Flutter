@@ -4,7 +4,6 @@ import 'package:get/state_manager.dart';
 import 'package:quiz_app/models/Questions.dart';
 import 'package:quiz_app/screens/score/score_screen.dart';
 
-// We use get package for our state management
 
 class QuestionController extends GetxController
     with SingleGetTickerProviderMixin {

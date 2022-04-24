@@ -7,7 +7,7 @@ class Question {
     required this.id,
     required this.question,
     required this.answer,
-    required this.options
+    required this.options,
   });
 }
 

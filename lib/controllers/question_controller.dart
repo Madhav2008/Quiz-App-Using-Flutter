@@ -49,7 +49,6 @@ class QuestionController extends GetxController
         update();
       });
 
-    // start our animation
     _animationController.forward().whenComplete(nextQuestion);
     _pageController = PageController();
     super.onInit();

@@ -6,7 +6,7 @@ import '../../../constants.dart';
 
 class Option extends StatelessWidget {
   const Option({
-    Key key,
+    Key? key,
     this.text,
     this.index,
     this.press,

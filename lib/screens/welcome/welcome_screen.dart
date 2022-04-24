@@ -17,7 +17,7 @@ class WelcomeScreen extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Spacer(flex: 2), //2/6
+                  Spacer(flex: 2),
                   Text(
                     "Let's Play Quiz,",
                     style: Theme.of(context).textTheme.headline4!.copyWith(

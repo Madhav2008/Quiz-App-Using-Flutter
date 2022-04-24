@@ -29,7 +29,7 @@ class WelcomeScreen extends StatelessWidget {
                         ),
                   ),
                   Text("Enter your informations below"),
-                  Spacer(), // 1/6
+                  Spacer(),
                   TextField(
                     decoration: InputDecoration(
                       filled: true,

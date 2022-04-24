@@ -50,7 +50,7 @@ class WelcomeScreen extends StatelessWidget {
                         "Lets Start Quiz",
                         style: Theme.of(context)
                             .textTheme
-                            .button
+                            .button!
                             .copyWith(color: Colors.black),
                       ),
                     ),

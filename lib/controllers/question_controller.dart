@@ -54,7 +54,6 @@ class QuestionController extends GetxController
     super.onInit();
   }
 
-  // // called just before the Controller is deleted from memory
   @override
   void onClose() {
     super.onClose();

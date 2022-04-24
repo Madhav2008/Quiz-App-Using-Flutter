@@ -50,7 +50,6 @@ class QuestionController extends GetxController
       });
 
     // start our animation
-    // Once 60s is completed go to the next qn
     _animationController.forward().whenComplete(nextQuestion);
     _pageController = PageController();
     super.onInit();

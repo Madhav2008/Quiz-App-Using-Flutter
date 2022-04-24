@@ -62,7 +62,6 @@ class QuestionController extends GetxController
   }
 
   void checkAns(Question question, int selectedIndex) {
-    // because once user press any option then it will run
     _isAnswered = true;
     _correctAns = question.answer;
     _selectedAns = selectedIndex;

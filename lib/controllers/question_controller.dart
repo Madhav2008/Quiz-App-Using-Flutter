@@ -8,7 +8,6 @@ import 'package:quiz_app/screens/score/score_screen.dart';
 
 class QuestionController extends GetxController
     with SingleGetTickerProviderMixin {
-  // Lets animated our progress bar
 
   AnimationController _animationController;
   Animation _animation;

@@ -12,7 +12,7 @@ class ScoreScreen extends StatelessWidget {
       body: Stack(
         fit: StackFit.expand,
         children: [
-          SvgPicture.asset("assets/icons/bg.svg", fit: BoxFit.fill),
+          SvgPicture.asset("../assets/icons/bg.svg", fit: BoxFit.fill),
           Column(
             children: [
               Spacer(flex: 3),

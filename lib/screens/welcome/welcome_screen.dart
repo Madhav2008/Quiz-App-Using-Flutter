@@ -60,7 +60,7 @@ class WelcomeScreen extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Spacer(flex: 2), // it will take 2/6 spaces
+                  Spacer(flex: 2),
                 ],
               ),
             ),

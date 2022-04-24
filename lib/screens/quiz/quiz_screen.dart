@@ -7,7 +7,7 @@ import 'components/body.dart';
 class QuizScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    QuestionController _controller = Get.put(QuestionController());
+    QuestionController _controller = Get.put(QuestionController(),);
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(

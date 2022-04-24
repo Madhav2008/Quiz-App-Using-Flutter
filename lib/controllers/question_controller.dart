@@ -34,7 +34,6 @@ class QuestionController extends GetxController
   int _selectedAns;
   int get selectedAns => this._selectedAns;
 
-  // for more about obs please check documentation
   RxInt _questionNumber = 1.obs;
   RxInt get questionNumber => this._questionNumber;
 

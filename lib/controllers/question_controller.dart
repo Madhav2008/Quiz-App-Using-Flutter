@@ -68,7 +68,6 @@ class QuestionController extends GetxController
 
     if (_correctAns == _selectedAns) _numOfCorrectAns++;
 
-    // It will stop the counter
     _animationController.stop();
     update();
 

@@ -81,7 +81,6 @@ class QuestionController extends GetxController
       _pageController.nextPage(
           duration: Duration(milliseconds: 250), curve: Curves.ease);
 
-      // Reset the counter
       _animationController.reset();
 
       // Then start it again

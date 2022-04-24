@@ -7,7 +7,7 @@ class Option extends StatelessWidget {
   const Option({
     Key? key,
     required this.text,
-    this.index,
+    required this.index,
     this.press,
   }) : super(key: key);
   final String text;

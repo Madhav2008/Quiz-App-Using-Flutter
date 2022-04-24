@@ -8,7 +8,7 @@ class Option extends StatelessWidget {
     Key? key,
     required this.text,
     required this.index,
-    this.press,
+    required this.press,
   }) : super(key: key);
   final String text;
   final int index;

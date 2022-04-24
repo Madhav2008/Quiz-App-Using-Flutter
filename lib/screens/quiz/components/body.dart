@@ -46,7 +46,7 @@ class Body extends StatelessWidget {
                           text: "/${_questionController.questions.length}",
                           style: Theme.of(context)
                               .textTheme
-                              .headline5
+                              .headline5!
                               .copyWith(color: kSecondaryColor),
                         ),
                       ],

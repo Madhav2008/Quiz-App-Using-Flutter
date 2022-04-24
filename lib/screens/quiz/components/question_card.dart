@@ -8,7 +8,7 @@ import 'option.dart';
 class QuestionCard extends StatelessWidget {
   const QuestionCard({
     Key? key,
-    this.question,
+    required this.question,
   }) : super(key: key);
 
   final Question question;

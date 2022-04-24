@@ -85,7 +85,9 @@ class QuestionController extends GetxController
 
       _animationController.forward().whenComplete(nextQuestion);
     } else {
-      Get.to(ScoreScreen(),);
+      Get.to(
+        ScoreScreen(),
+      );
     }
   }
 

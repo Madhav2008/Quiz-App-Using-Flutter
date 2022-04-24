@@ -6,7 +6,6 @@ import 'package:quiz_app/screens/score/score_screen.dart';
 
 class QuestionController extends GetxController
     with SingleGetTickerProviderMixin {
-
   AnimationController _animationController;
   Animation _animation;
   Animation get animation => this._animation;

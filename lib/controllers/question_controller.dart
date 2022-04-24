@@ -40,7 +40,6 @@ class QuestionController extends GetxController
   int _numOfCorrectAns = 0;
   int get numOfCorrectAns => this._numOfCorrectAns;
 
-  // called immediately after the widget is allocated memory
   @override
   void onInit() {
     // Our animation duration is 60 s

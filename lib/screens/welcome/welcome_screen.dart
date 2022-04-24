@@ -40,7 +40,7 @@ class WelcomeScreen extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Spacer(), // 1/6
+                  Spacer(),
                   InkWell(
                     onTap: () => Get.to(QuizScreen()),
                     child: Container(

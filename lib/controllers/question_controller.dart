@@ -30,7 +30,7 @@ class QuestionController extends GetxController
   int _correctAns;
   int get correctAns => this._correctAns;
 
-  int _selectedAns;
+  late int _selectedAns;
   int get selectedAns => this._selectedAns;
 
   RxInt _questionNumber = 1.obs;

@@ -42,7 +42,6 @@ class QuestionController extends GetxController
 
   @override
   void onInit() {
-    // Our animation duration is 60 s
     _animationController =
         AnimationController(duration: Duration(seconds: 60), vsync: this);
     _animation = Tween<double>(begin: 0, end: 1).animate(_animationController)
